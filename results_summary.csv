@@ -1,0 +1,9 @@
+,,auc,auc,balanced_accuracy,balanced_accuracy,sensitivity,sensitivity,specificity,specificity,f1,f1
+,,mean,std,mean,std,mean,std,mean,std,mean,std
+model,threshold,,,,,,,,,,
+MLP,0.5,0.806,0.078,0.69,0.076,0.446,0.154,0.933,0.044,0.503,0.135
+MLP,inner CV,0.806,0.078,0.666,0.055,0.841,0.138,0.49,0.136,0.409,0.052
+Logistic regression,0.5,0.798,0.072,0.731,0.068,0.61,0.118,0.852,0.063,0.539,0.103
+Logistic regression,inner CV,0.798,0.072,0.682,0.061,0.815,0.119,0.548,0.112,0.425,0.054
+Majority class,0.5,0.5,0.0,0.5,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Majority class,inner CV,0.5,0.0,0.5,0.0,0.0,0.0,1.0,0.0,0.0,0.0

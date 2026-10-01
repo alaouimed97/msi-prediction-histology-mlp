@@ -1,0 +1,16 @@
+fold,architecture,threshold_mlp,threshold_lr
+1,"2 layers 512-128, dropout 0.5, batchnorm",0.28,0.384
+2,"2 layers 512-128, dropout 0.5, batchnorm",0.292,0.417
+3,"1 layer 512, dropout 0.5",0.273,0.396
+4,"2 layers 512-128, dropout 0.5, batchnorm",0.357,0.42
+5,"2 layers 256-64, dropout 0.3",0.243,0.428
+6,"1 layer 512, dropout 0.5",0.268,0.382
+7,"2 layers 512-128, dropout 0.5, batchnorm",0.27,0.372
+8,"2 layers 512-128, dropout 0.5, batchnorm",0.299,0.407
+9,"2 layers 512-128, dropout 0.5, batchnorm",0.326,0.43
+10,"2 layers 256-64, dropout 0.3",0.237,0.4
+11,"2 layers 512-128, dropout 0.5, batchnorm",0.297,0.394
+12,"2 layers 512-128, dropout 0.5, batchnorm",0.304,0.438
+13,"2 layers 512-128, dropout 0.5, batchnorm",0.305,0.405
+14,"2 layers 256-64, dropout 0.3",0.291,0.434
+15,"1 layer 512, dropout 0.5",0.289,0.415

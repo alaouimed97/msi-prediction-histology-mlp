@@ -1,0 +1,20 @@
+# data (images and extracted features are too large for GitHub)
+data/
+chunks*/
+features*.npy
+tiles*.csv
+
+# logs and earlier runs
+*.log
+run_*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# system
+Thumbs.db
+desktop.ini
+.DS_Store

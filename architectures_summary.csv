@@ -1,0 +1,13 @@
+model,mean,std,beats LR (folds /15)
+"Logistic regression, 100 tiles/patient",0.81,0.059,0
+"Logistic regression, 300 tiles/patient",0.798,0.055,4
+"1 layer 256, dropout 0.2 (current)",0.805,0.064,7
+"1 layer 512, dropout 0.5",0.813,0.055,8
+"2 layers 256-64, dropout 0.3",0.812,0.059,9
+"2 layers 512-128, dropout 0.5, batchnorm",0.814,0.056,10
+"3 layers 512-256-64, dropout 0.5",0.803,0.057,8
+"1 layer 256, dropout 0.5, input dropout 0.2",0.804,0.062,8
+"1 layer 256, dropout 0.5, weight decay 1e-2",0.806,0.059,8
+"1 layer 256, dropout 0.2, 300 tiles/patient",0.798,0.06,5
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",0.799,0.052,6
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",0.813,0.059,8

@@ -1,0 +1,181 @@
+model,fold,auc
+"Logistic regression, 100 tiles/patient",1,0.7822685788787483
+"Logistic regression, 300 tiles/patient",1,0.7796610169491526
+"1 layer 256, dropout 0.2 (current)",1,0.7640156453715776
+"1 layer 512, dropout 0.5",1,0.7614080834419817
+"2 layers 256-64, dropout 0.3",1,0.7470664928292048
+"2 layers 512-128, dropout 0.5, batchnorm",1,0.7796610169491526
+"3 layers 512-256-64, dropout 0.5",1,0.7692307692307693
+"1 layer 256, dropout 0.5, input dropout 0.2",1,0.7666232073011734
+"1 layer 256, dropout 0.5, weight decay 1e-2",1,0.7692307692307693
+"1 layer 256, dropout 0.2, 300 tiles/patient",1,0.7783572359843546
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",1,0.7653194263363754
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",1,0.7509778357235986
+"Logistic regression, 100 tiles/patient",2,0.7953063885267276
+"Logistic regression, 300 tiles/patient",2,0.7966101694915254
+"1 layer 256, dropout 0.2 (current)",2,0.741851368970013
+"1 layer 512, dropout 0.5",2,0.7835723598435463
+"2 layers 256-64, dropout 0.3",2,0.7653194263363755
+"2 layers 512-128, dropout 0.5, batchnorm",2,0.743155149934811
+"3 layers 512-256-64, dropout 0.5",2,0.7679269882659714
+"1 layer 256, dropout 0.5, input dropout 0.2",2,0.7522816166883963
+"1 layer 256, dropout 0.5, weight decay 1e-2",2,0.7614080834419817
+"1 layer 256, dropout 0.2, 300 tiles/patient",2,0.8279009126466754
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",2,0.7731421121251629
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",2,0.788787483702738
+"Logistic regression, 100 tiles/patient",3,0.7926988265971316
+"Logistic regression, 300 tiles/patient",3,0.7353324641460234
+"1 layer 256, dropout 0.2 (current)",3,0.8565840938722294
+"1 layer 512, dropout 0.5",3,0.848761408083442
+"2 layers 256-64, dropout 0.3",3,0.8252933507170794
+"2 layers 512-128, dropout 0.5, batchnorm",3,0.8252933507170795
+"3 layers 512-256-64, dropout 0.5",3,0.8018252933507171
+"1 layer 256, dropout 0.5, input dropout 0.2",3,0.8500651890482399
+"1 layer 256, dropout 0.5, weight decay 1e-2",3,0.8161668839634941
+"1 layer 256, dropout 0.2, 300 tiles/patient",3,0.758800521512386
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",3,0.7979139504563233
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",3,0.8357235984354628
+"Logistic regression, 100 tiles/patient",4,0.8748370273794002
+"Logistic regression, 300 tiles/patient",4,0.8552803129074317
+"1 layer 256, dropout 0.2 (current)",4,0.8396349413298565
+"1 layer 512, dropout 0.5",4,0.8591916558018252
+"2 layers 256-64, dropout 0.3",4,0.8683181225554107
+"2 layers 512-128, dropout 0.5, batchnorm",4,0.8631029986962191
+"3 layers 512-256-64, dropout 0.5",4,0.8500651890482399
+"1 layer 256, dropout 0.5, input dropout 0.2",4,0.8383311603650587
+"1 layer 256, dropout 0.5, weight decay 1e-2",4,0.8474576271186441
+"1 layer 256, dropout 0.2, 300 tiles/patient",4,0.8631029986962191
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",4,0.8591916558018253
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",4,0.8604954367666232
+"Logistic regression, 100 tiles/patient",5,0.7900912646675359
+"Logistic regression, 300 tiles/patient",5,0.7992177314211212
+"1 layer 256, dropout 0.2 (current)",5,0.8018252933507172
+"1 layer 512, dropout 0.5",5,0.8083441981747067
+"2 layers 256-64, dropout 0.3",5,0.8213820078226858
+"2 layers 512-128, dropout 0.5, batchnorm",5,0.8096479791395046
+"3 layers 512-256-64, dropout 0.5",5,0.8083441981747066
+"1 layer 256, dropout 0.5, input dropout 0.2",5,0.8031290743155151
+"1 layer 256, dropout 0.5, weight decay 1e-2",5,0.7900912646675359
+"1 layer 256, dropout 0.2, 300 tiles/patient",5,0.8096479791395046
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",5,0.8083441981747067
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",5,0.8174706649282922
+"Logistic regression, 100 tiles/patient",6,0.8448500651890483
+"Logistic regression, 300 tiles/patient",6,0.820078226857888
+"1 layer 256, dropout 0.2 (current)",6,0.835723598435463
+"1 layer 512, dropout 0.5",6,0.8239895697522817
+"2 layers 256-64, dropout 0.3",6,0.8265971316818775
+"2 layers 512-128, dropout 0.5, batchnorm",6,0.8591916558018253
+"3 layers 512-256-64, dropout 0.5",6,0.8565840938722294
+"1 layer 256, dropout 0.5, input dropout 0.2",6,0.8539765319426337
+"1 layer 256, dropout 0.5, weight decay 1e-2",6,0.8604954367666233
+"1 layer 256, dropout 0.2, 300 tiles/patient",6,0.8031290743155151
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",6,0.7940026075619295
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",6,0.8500651890482399
+"Logistic regression, 100 tiles/patient",7,0.8213820078226859
+"Logistic regression, 300 tiles/patient",7,0.8279009126466753
+"1 layer 256, dropout 0.2 (current)",7,0.78748370273794
+"1 layer 512, dropout 0.5",7,0.8018252933507172
+"2 layers 256-64, dropout 0.3",7,0.8070404172099087
+"2 layers 512-128, dropout 0.5, batchnorm",7,0.7913950456323338
+"3 layers 512-256-64, dropout 0.5",7,0.7913950456323338
+"1 layer 256, dropout 0.5, input dropout 0.2",7,0.78748370273794
+"1 layer 256, dropout 0.5, weight decay 1e-2",7,0.7887874837027379
+"1 layer 256, dropout 0.2, 300 tiles/patient",7,0.8200782268578879
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",7,0.7953063885267275
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",7,0.8109517601043025
+"Logistic regression, 100 tiles/patient",8,0.7744458930899609
+"Logistic regression, 300 tiles/patient",8,0.7692307692307693
+"1 layer 256, dropout 0.2 (current)",8,0.7953063885267275
+"1 layer 512, dropout 0.5",8,0.817470664928292
+"2 layers 256-64, dropout 0.3",8,0.8096479791395046
+"2 layers 512-128, dropout 0.5, batchnorm",8,0.8174706649282921
+"3 layers 512-256-64, dropout 0.5",8,0.7966101694915254
+"1 layer 256, dropout 0.5, input dropout 0.2",8,0.81877444589309
+"1 layer 256, dropout 0.5, weight decay 1e-2",8,0.7926988265971318
+"1 layer 256, dropout 0.2, 300 tiles/patient",8,0.7757496740547588
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",8,0.8096479791395046
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",8,0.8018252933507171
+"Logistic regression, 100 tiles/patient",9,0.7014341590612777
+"Logistic regression, 300 tiles/patient",9,0.713168187744459
+"1 layer 256, dropout 0.2 (current)",9,0.6870925684485008
+"1 layer 512, dropout 0.5",9,0.7092568448500653
+"2 layers 256-64, dropout 0.3",9,0.7040417209908736
+"2 layers 512-128, dropout 0.5, batchnorm",9,0.7105606258148631
+"3 layers 512-256-64, dropout 0.5",9,0.7001303780964797
+"1 layer 256, dropout 0.5, input dropout 0.2",9,0.6623207301173403
+"1 layer 256, dropout 0.5, weight decay 1e-2",9,0.6923076923076923
+"1 layer 256, dropout 0.2, 300 tiles/patient",9,0.6870925684485006
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",9,0.7040417209908736
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",9,0.6975228161668839
+"Logistic regression, 100 tiles/patient",10,0.8591916558018253
+"Logistic regression, 300 tiles/patient",10,0.8461538461538461
+"1 layer 256, dropout 0.2 (current)",10,0.8852672750977837
+"1 layer 512, dropout 0.5",10,0.8813559322033899
+"2 layers 256-64, dropout 0.3",10,0.8683181225554107
+"2 layers 512-128, dropout 0.5, batchnorm",10,0.8683181225554107
+"3 layers 512-256-64, dropout 0.5",10,0.8774445893089963
+"1 layer 256, dropout 0.5, input dropout 0.2",10,0.8839634941329857
+"1 layer 256, dropout 0.5, weight decay 1e-2",10,0.8748370273794003
+"1 layer 256, dropout 0.2, 300 tiles/patient",10,0.8670143415906129
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",10,0.8526727509778357
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",10,0.8891786179921773
+"Logistic regression, 100 tiles/patient",11,0.711864406779661
+"Logistic regression, 300 tiles/patient",11,0.7105606258148631
+"1 layer 256, dropout 0.2 (current)",11,0.7509778357235983
+"1 layer 512, dropout 0.5",11,0.7835723598435462
+"2 layers 256-64, dropout 0.3",11,0.7627118644067796
+"2 layers 512-128, dropout 0.5, batchnorm",11,0.7522816166883963
+"3 layers 512-256-64, dropout 0.5",11,0.727509778357236
+"1 layer 256, dropout 0.5, input dropout 0.2",11,0.7209908735332464
+"1 layer 256, dropout 0.5, weight decay 1e-2",11,0.7235984354628423
+"1 layer 256, dropout 0.2, 300 tiles/patient",11,0.7053455019556715
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",11,0.727509778357236
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",11,0.7666232073011734
+"Logistic regression, 100 tiles/patient",12,0.9230769230769231
+"Logistic regression, 300 tiles/patient",12,0.9191655801825294
+"1 layer 256, dropout 0.2 (current)",12,0.9217731421121251
+"1 layer 512, dropout 0.5",12,0.9178617992177315
+"2 layers 256-64, dropout 0.3",12,0.9322033898305084
+"2 layers 512-128, dropout 0.5, batchnorm",12,0.9282920469361147
+"3 layers 512-256-64, dropout 0.5",12,0.908735332464146
+"1 layer 256, dropout 0.5, input dropout 0.2",12,0.8917861799217731
+"1 layer 256, dropout 0.5, weight decay 1e-2",12,0.9243807040417209
+"1 layer 256, dropout 0.2, 300 tiles/patient",12,0.8917861799217732
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",12,0.8983050847457628
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",12,0.9178617992177314
+"Logistic regression, 100 tiles/patient",13,0.8083441981747066
+"Logistic regression, 300 tiles/patient",13,0.7953063885267275
+"1 layer 256, dropout 0.2 (current)",13,0.8617992177314212
+"1 layer 512, dropout 0.5",13,0.8500651890482398
+"2 layers 256-64, dropout 0.3",13,0.8709256844850065
+"2 layers 512-128, dropout 0.5, batchnorm",13,0.848761408083442
+"3 layers 512-256-64, dropout 0.5",13,0.8305084745762712
+"1 layer 256, dropout 0.5, input dropout 0.2",13,0.834419817470665
+"1 layer 256, dropout 0.5, weight decay 1e-2",13,0.8448500651890483
+"1 layer 256, dropout 0.2, 300 tiles/patient",13,0.8526727509778358
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",13,0.8578878748370273
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",13,0.8539765319426336
+"Logistic regression, 100 tiles/patient",14,0.803129074315515
+"Logistic regression, 300 tiles/patient",14,0.786179921773142
+"1 layer 256, dropout 0.2 (current)",14,0.817470664928292
+"1 layer 512, dropout 0.5",14,0.8187744458930899
+"2 layers 256-64, dropout 0.3",14,0.8109517601043025
+"2 layers 512-128, dropout 0.5, batchnorm",14,0.8265971316818774
+"3 layers 512-256-64, dropout 0.5",14,0.81877444589309
+"1 layer 256, dropout 0.5, input dropout 0.2",14,0.8226857887874838
+"1 layer 256, dropout 0.5, weight decay 1e-2",14,0.8148631029986962
+"1 layer 256, dropout 0.2, 300 tiles/patient",14,0.8018252933507171
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",14,0.7835723598435463
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",14,0.8070404172099087
+"Logistic regression, 100 tiles/patient",15,0.863102998696219
+"Logistic regression, 300 tiles/patient",15,0.8109517601043025
+"1 layer 256, dropout 0.2 (current)",15,0.7301173402868318
+"1 layer 512, dropout 0.5",15,0.7314211212516297
+"2 layers 256-64, dropout 0.3",15,0.7548891786179922
+"2 layers 512-128, dropout 0.5, batchnorm",15,0.7900912646675359
+"3 layers 512-256-64, dropout 0.5",15,0.7366362451108215
+"1 layer 256, dropout 0.5, input dropout 0.2",15,0.7692307692307692
+"1 layer 256, dropout 0.5, weight decay 1e-2",15,0.7913950456323338
+"1 layer 256, dropout 0.2, 300 tiles/patient",15,0.7249022164276402
+"2 layers 256-64, dropout 0.3, 300 tiles/patient",15,0.7653194263363755
+"1 layer 256, dropout 0.2, ensemble of 5 seeds",15,0.7405475880052151
